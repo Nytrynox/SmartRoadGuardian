@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <!-- Full Image -->
+    <ImageView
+        android:id="@+id/fullImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:background="@color/background" />
+
+    <!-- Details -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Type -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Type:"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:id="@+id/detailType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Helmet"
+                android:textColor="@color/violation_helmet"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Confidence -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Confidence:"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:id="@+id/detailConfidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="95.0%"
+                android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+        <!-- Timestamp -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Time:"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:id="@+id/detailTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2024-01-21 10:30:00"
+                android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+        <!-- Location -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Location:"
+                android:textColor="@color/text_secondary" />
+
+            <TextView
+                android:id="@+id/detailLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.9716, 77.5946"
+                android:textColor="@color/text_primary" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

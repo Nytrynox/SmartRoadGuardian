@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Internal app files -->
+    <files-path
+        name="violations"
+        path="violations/" />
+
+    <!-- Cache directory -->
+    <cache-path
+        name="cache"
+        path="/" />
+
+    <!-- External files directory -->
+    <external-files-path
+        name="external_files"
+        path="." />
+
+    <!-- External pictures -->
+    <external-path
+        name="external"
+        path="." />
+</paths>

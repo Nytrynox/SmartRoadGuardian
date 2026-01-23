@@ -1,0 +1,42 @@
+# Ignore Android Studio / IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# Android
+*.apk
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# Kotlin
+*.kotlin_module
+
+# Native
+obj/
+*.so
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test
+/coverage/
+/test-results/
+
+# Logs
+*.log
+
+# Large files (exceed GitHub 100MB limit)
+gradle.zip
+gradle-8.5/
+*.pt
+local.properties

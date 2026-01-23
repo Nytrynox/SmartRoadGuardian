@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cyber/Futuristic Color Palette -->
+    
+    <!-- Primary Colors -->
+    <color name="primary">#00E5FF</color>
+    <color name="primary_dark">#00B8D4</color>
+    <color name="primary_light">#6EFFFF</color>
+    <color name="accent">#00E5FF</color>
+    
+    <!-- Background Colors -->
+    <color name="background">#0D0D0D</color>
+    <color name="background_secondary">#1A1A1A</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="surface_elevated">#252525</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="text_hint">#666666</color>
+    
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FF9800</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+    
+    <!-- Violation Type Colors -->
+    <color name="violation_helmet">#FF5722</color>
+    <color name="violation_triple">#E91E63</color>
+    <color name="violation_plate">#9C27B0</color>
+    <color name="violation_wrongway">#F44336</color>
+    
+    <!-- Bounding Box Colors -->
+    <color name="bbox_person">#4CAF50</color>
+    <color name="bbox_helmet">#2196F3</color>
+    <color name="bbox_motorcycle">#FF9800</color>
+    <color name="bbox_car">#9C27B0</color>
+    <color name="bbox_plate">#E91E63</color>
+    
+    <!-- UI Elements -->
+    <color name="divider">#333333</color>
+    <color name="overlay">#CC000000</color>
+    <color name="card_background">#1E1E1E</color>
+    <color name="button_disabled">#424242</color>
+    
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#00000000</color>
+    <color name="gradient_end">#CC000000</color>
+    
+    <!-- Status Bar -->
+    <color name="status_bar">#000000</color>
+</resources>
